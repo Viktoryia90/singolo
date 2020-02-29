@@ -65,47 +65,26 @@ body{
     border-bottom: 15px #ea676b;
     padding: 0px 42px;
     line-height: 600px;
-}
-
-.chews{
     display: flex;
     justify-content: space-between;
 }
 
-.iphone {
-    display: block;
+.phones {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 0 62px 0;
 }
 
-.iphone img {
-    position: absolute;
-}
-
-.inner {
-    margin: 62px 10px 57px 10px;
-}
-
-.vert {
-    margin-top: 53px;
-    margin-left: 111px;
-    position: absolute
-}
-
-.horiz {
-    transform: rotate(90deg);
-}
-
-.hor-img {
-    margin-left: 50px;
-    margin-top: 170px;
-}
-
-
-.horiz-shadow {
-}
-
-.horiz-inner{
+.phone {
     position: relative;
-    margin-top: 302px;
+    width: 50%;
+}
+
+.phone img {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .services {
