@@ -7,6 +7,9 @@ body {
     margin: 0 auto;
 }
 
+
+/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -198,13 +201,14 @@ body {
 
 .services .col-text p {
     width: 219px;
-    height: 128px;
+    height: 65px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
     text-align: justify;
+    overflow: hidden;
 }
 
 .section-wrapper {
@@ -278,8 +282,10 @@ h5 {
     height: 600px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 19px;
     margin-top: 5px;
+    overflow: hidden;
 }
 
 .projects a:hover {
@@ -316,6 +322,12 @@ h5 {
     width: 300px;
 }
 
+.contacts__contact h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .contacts__socials {
     margin-top: 24px;
     width: 51%;
@@ -330,6 +342,9 @@ h5 {
 .contacts__socials img:hover {
     filter: invert(100%) sepia(0%) saturate(4430%) hue-rotate(188deg) brightness(118%) contrast(74%);
 }
+
+
+/* Get Quote Form */
 
 .get-quote h1 {
     font-size: 30px;
