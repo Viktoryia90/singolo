@@ -1,0 +1,499 @@
+body {
+    font-family: Lato;
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 95px;
+    background-color: #2d303a;
+    border-bottom: 6px #323746;
+    padding: 0px 40px 0 40px;
+}
+
+.navbar {
+    display: block;
+    width: 371px;
+}
+
+.navbar ul {
+    display: flex;
+    padding-top: 9px;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    font-size: 12px;
+    line-height: 6px;
+    font-family: "Lato";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #f06c64;
+}
+
+.navbar ul li a span {
+    color: #f06c64;
+}
+
+.logo h1 {
+    font-size: 25px;
+    line-height: 88px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #f06c64;
+}
+
+
+/* Slider */
+
+.slider {
+    background-color: #f06c64;
+    height: 600px;
+    border-bottom: 15px #ea676b;
+    padding: 0px 42px;
+    line-height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider a:hover {
+    filter: invert(29%) sepia(78%) saturate(1530%) hue-rotate(330deg) brightness(93%) contrast(79%);
+}
+
+.phones {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 0 62px 0;
+}
+
+.phone {
+    position: relative;
+    width: 50%;
+}
+
+.phone img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vert {
+    top: 2px;
+    left: 2px;
+}
+
+.vert .inner {
+    top: 61px;
+    left: 11px;
+}
+
+.horiz .inner {
+    left: -62px;
+    top: 160px;
+}
+
+.horiz {
+    transform: rotate(90deg);
+    top: 79px;
+    left: -45px;
+}
+
+.phone .horiz__phone {
+    top: 25px;
+}
+
+.shad {
+    transform: scale(1, -1);
+}
+
+
+/* Services */
+
+.services {
+    background-color: #f2f2f2;
+    border-bottom: 5px #ffffff;
+    padding: 65px 40px 25px;
+}
+
+.services .title {
+    font-size: 30px;
+    line-height: 26px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+.services .text {
+    font-size: 18px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin: 22px 0px 45px 0px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.col-container {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    flex-wrap: wrap;
+}
+
+.services .column {
+    width: 300px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.services .icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    border: 2px solid #666d89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .col-text h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 9px;
+}
+
+.services .col-text p {
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+}
+
+.section-wrapper {
+    width: 92%;
+    margin: 0 auto;
+    padding: 63px 0 74px 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: #666d89;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #666d89;
+    font-weight: 900;
+    padding: 13px 0 11px 0;
+}
+
+p {
+    font-size: 18px;
+    color: #767e9e;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 12px;
+    color: #767e9e;
+    font-weight: 400;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+
+/* Portfolio section */
+
+.portfolio {
+    height: 50%;
+    border-bottom: #323746 6px;
+    background-color: #2d303a;
+}
+
+.tags {
+    width: 290px;
+    height: 51px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tags__tag {
+    border: #767e9e 1px solid;
+    border-radius: 5px;
+    padding: 0 6px;
+}
+
+.tags__tag:hover {
+    border: #dedede 1px solid;
+}
+
+.tags__tag h5:hover {
+    color: #dedede;
+}
+
+.projects {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 19px;
+    margin-top: 5px;
+}
+
+.projects a:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+
+/* About Us Section */
+
+.about-us {
+    height: 50%;
+    background-color: #f2f2f2;
+    border-bottom: #ffffff 6px;
+}
+
+.about-us h1 {
+    padding-bottom: 20px;
+}
+
+.about-us p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.contacts {
+    margin-top: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__contact {
+    width: 300px;
+}
+
+.contacts__socials {
+    margin-top: 24px;
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__socials img {
+    filter: invert(44%) sepia(14%) saturate(782%) hue-rotate(191deg) brightness(91%) contrast(83%);
+}
+
+.contacts__socials img:hover {
+    filter: invert(100%) sepia(0%) saturate(4430%) hue-rotate(188deg) brightness(118%) contrast(74%);
+}
+
+.get-quote h1 {
+    font-size: 30px;
+    color: #f0d8d9;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.get-quote h2 {
+    font-size: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.get-quote p {
+    font-size: 18px;
+    color: #f0d8d9;
+    font-weight: 300;
+    line-height: 30px;
+    height: 62px;
+    text-align: justify;
+}
+
+.get-quote h5 {
+    font-size: 12px;
+    color: #f0d8d9;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+
+/* Get a Quote Section */
+
+.get-quote {
+    background-color: #f06c64;
+}
+
+.form-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 41px;
+}
+
+.form {
+    width: 619px;
+}
+
+.form__field {
+    width: 604px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 14px;
+}
+
+input {
+    height: 38px;
+}
+
+textarea {
+    height: 190px;
+    padding-top: 10px;
+    padding-right: 0;
+}
+
+.textarea::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #f48c8f;
+}
+
+button {
+    height: 38px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f48c8f;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #f0d8d9;
+}
+
+.form__field::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #f48c8f;
+}
+
+.contact-info {
+    width: 300px;
+}
+
+.contact-info__contacts {
+    margin-top: 21px;
+}
+
+.contact-info__contacts a {
+    display: flex;
+    text-decoration: none;
+}
+
+.contact-info__contacts a:hover {
+    text-decoration: underline;
+}
+
+.contact-info__contacts h5 {
+    margin-left: 4px;
+}
+
+.contact-info .icon {
+    height: 20px;
+    width: 20px;
+    justify-content: space-around;
+    filter: invert(91%) sepia(3%) saturate(1694%) hue-rotate(296deg) brightness(96%) contrast(91%);
+}
+
+.contact-info__address img {
+    padding: 4px 0 0 4px;
+}
+
+.contact-info__phone img {
+    padding: 5px 0 0 3px;
+}
+
+.contact-info__mail img {
+    padding: 7px 1px 0 0;
+}
+
+
+/* Footer */
+
+footer {
+    height: 76px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h5 {
+    padding-top: 28px;
+}
+
+.footer__socials {
+    margin-top: 22px;
+    width: 151px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__socials img {
+    filter: invert(44%) sepia(14%) saturate(782%) hue-rotate(191deg) brightness(91%) contrast(83%);
+}
+
+.footer__socials img:hover {
+    filter: invert(100%) sepia(0%) saturate(4430%) hue-rotate(188deg) brightness(118%) contrast(74%);
+}

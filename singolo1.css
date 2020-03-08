@@ -135,7 +135,7 @@ body {
 .services {
     background-color: #f2f2f2;
     border-bottom: 5px #ffffff;
-    padding: 65px 40px 25px;
+    padding: 63px 40px 25px;
 }
 
 .services .title {
@@ -182,6 +182,7 @@ body {
 }
 
 .services .col-text h2 {
+    padding-top: 0;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
