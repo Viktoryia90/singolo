@@ -135,7 +135,7 @@ body {
 .services {
     background-color: #f2f2f2;
     border-bottom: 5px #ffffff;
-    padding: 65px 40px 25px;
+    padding: 65px 40px 35px;
 }
 
 .services .title {
@@ -168,7 +168,7 @@ body {
     height: 85px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
+    padding-bottom: 38px;
 }
 
 .services .icon {
@@ -181,14 +181,19 @@ body {
     justify-content: center;
 }
 
+.services img {
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
 .services .col-text h2 {
+    padding-top: 0;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
-    margin-bottom: 9px;
 }
 
 .services .col-text p {
@@ -203,7 +208,7 @@ body {
 }
 
 .section-wrapper {
-    width: 92%;
+    width: 940px;
     margin: 0 auto;
     padding: 63px 0 74px 0;
 }
@@ -301,7 +306,7 @@ h5 {
 }
 
 .contacts {
-    margin-top: 44px;
+    margin-top: 43px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -338,6 +343,7 @@ h5 {
     color: #f0d8d9;
     font-weight: 900;
     margin-bottom: 12px;
+    padding: 0;
 }
 
 .get-quote p {
@@ -359,6 +365,12 @@ h5 {
 
 
 /* Get a Quote Section */
+
+.get-quote .section-wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 59px 0 15px 0;
+}
 
 .get-quote {
     background-color: #f06c64;
