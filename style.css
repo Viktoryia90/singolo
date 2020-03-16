@@ -12,6 +12,10 @@ body {
 
 .header {
     display: flex;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 940px;
     justify-content: space-between;
     height: 95px;
     background-color: #2d303a;
@@ -46,11 +50,8 @@ body {
     text-decoration: none;
 }
 
-.navbar ul li a:hover {
-    color: #f06c64;
-}
-
-.navbar ul li a span {
+.navbar .active,
+.navbar .navel:hover {
     color: #f06c64;
 }
 
@@ -75,7 +76,7 @@ body {
     background-color: #f06c64;
     height: 600px;
     border-bottom: 15px #ea676b;
-    padding: 0px 42px;
+    padding: 95px 42px 0;
     line-height: 600px;
     display: flex;
     justify-content: space-between;

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <script src="script.js" async></script>
 </head>
 
 <body>
@@ -20,24 +20,24 @@
             <nav class="navbar">
                 <ul>
                     <li>
-                        <a href="#"><span>home</span></a>
+                        <a href="#home" class="navel active">home</a>
                     </li>
                     <li>
-                        <a href="#">services</a>
+                        <a href="#services" class="navel">services</a>
                     </li>
                     <li>
-                        <a href="#">portfolio</a>
+                        <a href="#portfolio" class="navel">portfolio</a>
                     </li>
                     <li>
-                        <a href="#">about</a>
+                        <a href="#about" class="navel">about</a>
                     </li>
                     <li>
-                        <a href="#">contact</a>
+                        <a href="#quote" class="navel">contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <div class="slider">
+        <div class="slider" id="home">
             <a href="#"><img src=".\assets\images\chev.png" alt="chew left"></a>
             <div class="phones">
                 <div class="phone vert">
@@ -53,7 +53,7 @@
             </div>
             <a href="#"><img style="transform: scale(-1,1);" src=".\assets\images\chev.png" alt="chew right"></a>
         </div>
-        <div class="services">
+        <div class="services" id="services">
             <div class="title">Our Services</div>
             <p class="text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitorz ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <div class="col-container">
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="section-wrapper">
                 <h1>Portfolio</h1>
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
@@ -143,7 +143,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-us">
+        <section class="about-us" id="about">
             <div class="section-wrapper">
                 <h1>About Us</h1>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -185,7 +185,7 @@
                 </div>
             </div>
         </section>
-        <section class="get-quote">
+        <section class="get-quote" id="quote">
             <div class="section-wrapper">
                 <h1>Get a Quote</h1>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
